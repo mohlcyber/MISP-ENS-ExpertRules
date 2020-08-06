@@ -18,6 +18,7 @@ The script will run every minute - Hash Indicators from Events in MISP that are 
 2. IP, Port, Username and Password for ePolicy Orchestrator. Make sure you have a Policy name and the Signature ID of the expert rule (line 18 - 23).
 
 To retrieve the signature id go to Policy Catalog > Endpoint Security Threat Prevention > Exploit Prevention > Go into the policy > Get the ID for the rule to update.
+
 ![Screenshot 2020-08-06 at 14 05 13](https://user-images.githubusercontent.com/25227268/89529946-ebb5c280-d7ed-11ea-9a49-b6422b58016d.png)
 
 
