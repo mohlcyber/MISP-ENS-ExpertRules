@@ -1,0 +1,15 @@
+Rule {
+	Process {
+		Include OBJECT_NAME {
+			-v ** 
+		}
+	}
+	Target {
+		Match FILE {
+			Include MD5 { 
+				-v "HASH"
+			}          
+			Include -access "CREATE READ EXECUTE"
+		}
+	}
+}
