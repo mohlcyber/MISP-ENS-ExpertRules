@@ -35,4 +35,4 @@ After entering all required values run the script
 
 ```python3.7 misp_epo_policy.py```
 
-Any feedback if more than welcome,
+Any feedback if more than welcome.
