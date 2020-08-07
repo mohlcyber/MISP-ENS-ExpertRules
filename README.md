@@ -5,9 +5,10 @@ Based on this policy McAfee protected endpoints will be able to block file execu
 
 # Proccedure
 
-The script will run every minute - Hash Indicators from Events in MISP that are tagged (with a specific tag) will be extracted and checked agains a cached file if hashes are already part of the ENS Expert Rule. If not it will append the hashes. After, the script will check EPO, if the policy exist already and download the policy. The downloaded policy will be modified with the new hashes and uploaded back to EPO.
+The script will run every minute - Hash Indicators from Events in MISP that are tagged (with a specific tag) will be extracted and checked agains a cached file if hashes are already part of the ENS Expert Rule and if the maximum of hashes reached already. If not it will append the hashes. After, the script will check EPO, if the policy exist already and download the policy. The downloaded policy will be modified with the new hashes and uploaded back to EPO.
 
-<p align="center"><img width="826" alt="Screenshot 2020-08-05 at 16 52 38" src="https://user-images.githubusercontent.com/25227268/89427967-23643200-d73c-11ea-8e81-1075a51d00e0.png"></p>
+<p align="center"><img width="669" alt="Screenshot 2020-08-07 at 09 23 56" src="https://user-images.githubusercontent.com/25227268/89620404-e01ad800-d88f-11ea-81ff-03c396543cc3.png">
+</p>
 
 # Prerequisits
 
