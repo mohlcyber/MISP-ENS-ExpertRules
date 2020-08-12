@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Written by mohlcyber v.0.1 03/07/2020
+# Written by mohlcyber v.0.2 12/08/2020
 
 import os
 import time
@@ -213,7 +213,7 @@ class EPO():
                 root_mod.append(set)
 
         for obj in root_org.iter('EPOPolicyObject'):
-            if 'Expert Rule Test Policy' in obj.attrib['name']:
+            if EPO_POLICY_NAME in obj.attrib['name']:
                 root_mod.append(obj)
 
         tree_mod._setroot(root_mod)
